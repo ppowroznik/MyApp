@@ -14,6 +14,8 @@
 		E599C4392ACC5C9600CF1301 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C4382ACC5C9600CF1301 /* MyAppTests.swift */; };
 		E599C4432ACC5C9600CF1301 /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C4422ACC5C9600CF1301 /* MyAppUITests.swift */; };
 		E599C4452ACC5C9600CF1301 /* MyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C4442ACC5C9600CF1301 /* MyAppUITestsLaunchTests.swift */; };
+		E599C4522ACC5F6100CF1301 /* MyTField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C4512ACC5F6100CF1301 /* MyTField.swift */; };
+		E599C4542ACC62B700CF1301 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C4532ACC62B700CF1301 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E599C43E2ACC5C9600CF1301 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E599C4422ACC5C9600CF1301 /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		E599C4442ACC5C9600CF1301 /* MyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E599C4512ACC5F6100CF1301 /* MyTField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTField.swift; sourceTree = "<group>"; };
+		E599C4532ACC62B700CF1301 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		E599C41B2ACC5C9500CF1301 = {
 			isa = PBXGroup;
 			children = (
+				E599C4532ACC62B700CF1301 /* Functions.swift */,
 				E599C4262ACC5C9500CF1301 /* MyApp */,
 				E599C4372ACC5C9600CF1301 /* MyAppTests */,
 				E599C4412ACC5C9600CF1301 /* MyAppUITests */,
@@ -96,6 +101,7 @@
 			children = (
 				E599C4272ACC5C9500CF1301 /* MyAppApp.swift */,
 				E599C4292ACC5C9500CF1301 /* ContentView.swift */,
+				E599C4512ACC5F6100CF1301 /* MyTField.swift */,
 				E599C42B2ACC5C9600CF1301 /* Assets.xcassets */,
 				E599C42D2ACC5C9600CF1301 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E599C42A2ACC5C9500CF1301 /* ContentView.swift in Sources */,
+				E599C4522ACC5F6100CF1301 /* MyTField.swift in Sources */,
 				E599C4282ACC5C9500CF1301 /* MyAppApp.swift in Sources */,
+				E599C4542ACC62B700CF1301 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
